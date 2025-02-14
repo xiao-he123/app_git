@@ -1,0 +1,9 @@
+.content{
+  margin: 20px;
+  padding: 20;
+  border:1px,solid
+}
+.user{
+	background:red;
+	height:50px;
+}

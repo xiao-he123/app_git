@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="content">
+    <text>{{content}}</text>
+  </view>
+  <view class="content" hidden="{{flag?true:false}}">
+    <text>{{hiddencontent}}</text>
+  </view>
+  <view class="content">
+    <text>{{num1}}+{{num2}}={{num1+num2}}</text>
+  </view>
+  <view>
+    <text>{{"hello " + user.name}}</text>
+  </view>
+  <view wx:if="{{flag}}">f2alse</view>
+  <view wx:elif="!{{flag}}">555</view>
+  <view>
+  <block wx:for="{{user}}">
+    <template is="usermap" data="{{item}}"/>
+  </block>
+  </view> -->
+</view>
+ <template name="usermap">
+  <view class="user">
+    <view>姓名：{{item.name}}</view>
+    <view>年龄：{{item.age}}</view>
+  </view>
+</template>
+<!-- <import src="template.wxml"/>
+<view>
+  <template is ="temp" data="{{text:'import wtest'}}"/>
+</view>
+<view>
+  <block wx:for="{{user}}">
+    <template is="usermap" data="{{item}}"/>
+  </block>
+  </view> --> 

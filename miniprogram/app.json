@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/calc/calc",
+    "pages/button/button",
+    "pages/binddata/binddata",
     "pages/index/index",
     "pages/goods-list/index",
     "pages/examples/index",

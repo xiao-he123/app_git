@@ -1,0 +1,8 @@
+<view class="container2">
+  <button type="default" size="{{defaultsize}}" plain="{{plain}}" loading="{{loading}}" disabled="{{disabled}}" bindtap="default">default</button>
+  <button type="primary" size="{{primarysize}}" plain="{{plain}}" loading="{{loading}}" disabled="{{disabled}}" bindtap="primary">primary</button>
+  <button type="warn" size="{{warnsize}}" plain="{{plain}}" loading="{{loading}}" disabled="{{disabled}}" bindtap="warn">warn</button>
+  <button bindtap="setdisabled">点击设置disabled属性</button>
+  <button bindtap="setloading">点击设置loading属性</button>
+
+</view>
