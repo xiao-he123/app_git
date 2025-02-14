@@ -1,5 +1,5 @@
 <!--pages/calc2/clac2.wxml-->
-<input class="screen" placeholder="计算结果" disable>{{result}}</input>
+<input class="screen" placeholder="计算结果" disabled value="{{result}}"/>
 <view class="bntxss">
 
   <button class="item" id="{{id1}}" bindtap="clickbutton">历史</button>
