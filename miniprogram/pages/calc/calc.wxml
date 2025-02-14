@@ -1,6 +1,7 @@
 <!--pages/calc/calc.wxml-->
 <view class="container">
 <input placeholder="加数" bindinput="bindput1"></input>
+<!-- <slider min="0" max="100" bindchange="bindput1" show-value /> -->
 <input placeholder="被加数" bindinput="bindput2"></input>
 <button type="primary" bindtap="bindadd">计算</button>
 <input placeholder="结果" value="{{result}}" disabled></input>

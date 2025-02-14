@@ -1,0 +1,27 @@
+/* pages/calc2/clac2.wxss */
+.bntxss{
+  display: flex;  
+  flex-direction: row;
+}
+.screen{
+  width:650rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  padding:0 30rpx;
+  margin: 10px;
+  border: 1px solid;
+  background-color: #ffffff;
+  text-align: right;
+  border-radius: 25px;
+}
+.item {
+  width: 160px;
+  min-height: 150rpx;
+  margin: 10rpx;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150rpx;
+  color: black; /* 设置文字颜色为白色（可选） */
+  
+}

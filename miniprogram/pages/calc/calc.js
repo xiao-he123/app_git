@@ -30,4 +30,5 @@ Page({
       }
       console.log(this.data.data2);
       },
+  
 })

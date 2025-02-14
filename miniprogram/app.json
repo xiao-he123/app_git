@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/calc2/clac2",
     "pages/calc/calc",
     "pages/button/button",
     "pages/binddata/binddata",

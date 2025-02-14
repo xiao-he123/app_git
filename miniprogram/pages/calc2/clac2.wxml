@@ -1,0 +1,33 @@
+<!--pages/calc2/clac2.wxml-->
+<input class="screen" placeholder="计算结果" disable>{{result}}</input>
+<view class="bntxss">
+
+  <button class="item" id="{{id1}}" bindtap="clickbutton">历史</button>
+  <button class="item" id="{{id2}}" bindtap="clickbutton">C</button>
+  <button class="item" id="{{id3}}" bindtap="clickbutton">del</button>
+  <button class="item" id="{{id4}}" bindtap="clickbutton">%</button>
+</view>
+<view class="bntxss">
+  <button class="item" id="{{id5}}" bindtap="clickbutton">7</button>
+  <button class="item" id="{{id6}}" bindtap="clickbutton">8</button>
+  <button class="item" id="{{id7}}" bindtap="clickbutton">9</button>
+  <button class="item" id="{{id8}}" bindtap="clickbutton">*</button>
+</view>
+<view class="bntxss">
+  <button class="item" id="{{id9}}" bindtap="clickbutton">4</button>
+  <button class="item" id="{{id10}}" bindtap="clickbutton">5</button>
+  <button class="item" id="{{id11}}" bindtap="clickbutton">6</button>
+  <button class="item" id="{{id12}}" bindtap="clickbutton">-</button>
+</view>
+<view class="bntxss">
+  <button class="item" id="{{id13}}" bindtap="clickbutton">1</button>
+  <button class="item" id="{{id14}}" bindtap="clickbutton">2</button>
+  <button class="item" id="{{id15}}" bindtap="clickbutton">3</button>
+  <button class="item" id="{{id16}}" bindtap="clickbutton">+</button>
+</view>
+<view class="bntxss">
+  <button class="item" id="{{id17}}" bindtap="clickbutton">+-</button>
+  <button class="item" id="{{id18}}" bindtap="clickbutton">0</button>
+  <button class="item" id="{{id19}}" bindtap="clickbutton">.</button>
+  <button class="item" id="{{id20}}" bindtap="clickbutton">=</button>
+</view>
