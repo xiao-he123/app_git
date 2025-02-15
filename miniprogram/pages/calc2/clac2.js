@@ -42,7 +42,7 @@ Page({
       }
       nonumberflag = false; // 标记当前点击的是数字
     }
-    
+    //2222
     else{//是非数字按钮
       nonumberflag=true;
       console.log(e.target.id);
